@@ -1,0 +1,12 @@
+nohup nextflow run /czlab/xuwen/scripts/PreP-ubam2bam-BWA-variant-GATK4/processing-for-variant-discovery-gatk4Mhg38.nf \
+    -profile hpc_slurm \
+    -c /czlab/xuwen/DFCI/project2/NA12878/analysis/hg38/scripts/nextflow.config \
+    -work-dir /czlab/xuwen/results/NA12878/300X/workspaces/PreP-ubam2bam-BWA-variant-GATK4/hg38/work \
+    --outdir /czlab/xuwen/results/NA12878/300X/hg38outDir/ \
+    --unmapped_bams_list /czlab/xuwen/results/NA12878/300X/unmapped_bams/unmapped_bams.tsv \
+    --projectId NA12878 \
+    -with-report processing-for-variant-discovery-gatk4.html \
+    -with-dag processing-for-variant-discovery-gatk4.flowchart.png \
+    -with-trace trace.txt \
+    -N sherwinmabos@gmail.com \
+    -bg &
