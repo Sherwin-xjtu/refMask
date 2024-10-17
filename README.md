@@ -2,7 +2,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/Sherwin-xjtu/PEcnv/edit/master/README.md)
 
-refMask: Correction of Read Biases Induced by Complex Reference Genome Regions for Improved Copy Number Variation Detection Using a Gaussian Mixture Model!
+refMask: Correction of Read Biases Induced by Complex Reference Genome Regions for Improving Copy Number Variation Detection Using a Gaussian Mixture Model!
 
 
 ## Table of Contents
