@@ -1,0 +1,1 @@
+java -jar /czlab/xuwen/software/JVARKIT/jvarkit.jar samgrep -f /czlab/xuwen/results/NA12878/300X/outDir/NA12878/bams/read_names.txt -- /czlab/xuwen/scripts/PreP-ubam2bam-BWA-variant-GATK4/NA12878.recal.merged.new.sorted.bam > out.bam

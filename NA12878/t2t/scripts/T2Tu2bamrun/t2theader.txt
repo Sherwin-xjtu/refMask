@@ -1,0 +1,29 @@
+@HD	VN:1.6	SO:coordinate	GO:query
+@SQ	SN:chr1	LN:248387328	M5:e469247288ceb332aee524caec92bb22	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr2	LN:242696752	M5:e5ff97665b6025191d4d7dfa2cec4cf0	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr3	LN:201105948	M5:0012f8a55c07f0b61e199736105e7257	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr4	LN:193574945	M5:b7e17a4f043aab5bc45cdfd5cccf9deb	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr5	LN:182045439	M5:e069fd69dce480b348767fa9827671b4	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr6	LN:172126628	M5:ae714983adbd673c7c84b0b1daa91f7e	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr7	LN:160567428	M5:3ff4435e65cf8cdd69a3150d09dd649f	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr8	LN:146259331	M5:29aeec58cb54d9132e2283839f9fcc9c	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr9	LN:150617247	M5:419dad1fb58ae389ad8828536b5d78cd	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr10	LN:134758134	M5:fbf3087282695f275d460157fc7864a5	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr11	LN:135127769	M5:7f144a0b4800c341a4b4f1518838cc59	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr12	LN:133324548	M5:5086cf368e83b9cefd7bb19ef0f40d3c	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr13	LN:113566686	M5:6f9949b26d5ece38c6cdefd48a516907	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr14	LN:101161492	M5:7ad36d43a1ab059e190ab918f27cb5bf	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr15	LN:99753195	M5:914e0733351aaa9a4354ca8efb527401	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr16	LN:96330374	M5:fcc04e14d89b12c757d56c177261e248	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr17	LN:84276897	M5:8627043bd24255e9f356e0c99ece251f	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr18	LN:80542538	M5:b6a85aabc31b2d57f707aa679a8612c5	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr19	LN:61707364	M5:c2c74cb0832b34b9e8eebf4b744a88c1	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr20	LN:66210255	M5:f1a31f30d3da50893470ff47bf0b5a38	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr21	LN:45090682	M5:760794bbbe965d4d1e3884bf09d1f306	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chr22	LN:51324926	M5:0068189b6b7c95e860cce0815662293f	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chrX	LN:154259566	M5:1f2616c4cfa30104517e44dd3c426453	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chrY	LN:62460029	M5:dd7264df17e7e4a4dac5b0f1f19dcfe0	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@SQ	SN:chrM	LN:16569	M5:c68f52674c9fb33aef52dcf399755519	UR:file:/czlab/xuwen/references/chm13/chm13v2.fa
+@RG	ID:U0b_TGACCA_L002_001_006_AH81VLADXX	SM:NA12878	LB:001	PL:HiSeq	PU:006_AH81VLADXX	CN:NIST	DT:2023-05-17T20:00:00-0400
+@PG	ID:bwamem	VN:0.7.17-r1188	CL:bwa mem -K 100000000 -p -v 3 -t 16 -Y chm13v2.fa	PN:bwamem
+@PG	ID:MarkDuplicates	VN:Version:4.4.0.0-25-g4456792-SNAPSHOT	CL:MarkDuplicates --INPUT /czlab/xuwen/results/NA12878/300X/workspaces/PreP-ubam2bam-BWA-variant-GATK4/T2T/work/44/ed9eaa760ee578bea021fd996ea771/NA12878.mapped.merged.bam --OUTPUT NA12878_merged.deduped.bam --METRICS_FILE NA12878_merged.deduped.metrics.txt --ASSUME_SORT_ORDER queryname --OPTICAL_DUPLICATE_PIXEL_DISTANCE 2500 --VALIDATION_STRINGENCY SILENT --CREATE_MD5_FILE true --MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP 50000 --MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 8000 --SORTING_COLLECTION_SIZE_RATIO 0.25 --TAG_DUPLICATE_SET_MEMBERS false --REMOVE_SEQUENCING_DUPLICATES false --TAGGING_POLICY DontTag --CLEAR_DT true --DUPLEX_UMI false --FLOW_MODE false --FLOW_QUALITY_SUM_STRATEGY false --USE_END_IN_UNPAIRED_READS false --USE_UNPAIRED_CLIPPED_END false --UNPAIRED_END_UNCERTAINTY 0 --FLOW_SKIP_FIRST_N_FLOWS 0 --FLOW_Q_IS_KNOWN_END false --FLOW_EFFECTIVE_QUALITY_THRESHOLD 15 --ADD_PG_TAG_TO_READS true --REMOVE_DUPLICATES false --ASSUME_SORTED false --DUPLICATE_SCORING_STRATEGY SUM_OF_BASE_QUALITIES --PROGRAM_RECORD_ID MarkDuplicates --PROGRAM_GROUP_NAME MarkDuplicates --READ_NAME_REGEX <optimized capture of last three ':' separated fields as numeric values> --MAX_OPTICAL_DUPLICATE_SET_SIZE 300000 --VERBOSITY INFO --QUIET false --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false	PN:MarkDuplicates	PP:bwamem
